@@ -54,7 +54,7 @@ can add this rule:</p>
 <p>This almost solves the problem:</p>
 <figure>
 <img src="images/almost.webp"
-alt="The link elements are now numbered" />
+alt="The link elements are now numbered">
 <figcaption aria-hidden="true">The link elements are now
 numbered</figcaption>
 </figure>
@@ -97,7 +97,7 @@ numbering system for <code>&lt;ol&gt;</code> items:</p>
 <p>Below is the full CSS that will produce the desired effect, for
 reference.</p>
 <figure>
-<img src="images/expected.webp" alt="The desired effect" />
+<img src="images/expected.webp" alt="The desired effect">
 <figcaption aria-hidden="true">The desired effect</figcaption>
 </figure>
 <pre class="language-css line-numbers"><code class="language-css line-numbers">body {
@@ -133,7 +133,7 @@ ol {
     width: 100%;
     box-sizing: border-box;
 
-    &::before {
+    &amp;::before {
       counter-increment: item 1;
       content: counter(item) ". ";
     }
@@ -158,13 +158,13 @@ structure:</p>
 numbered. When you apply your best CSS styling, you really want the
 items to appear like this:</p>
 <figure>
-<img src="images/expected.webp" alt="What you want" />
+<img src="images/expected.webp" alt="What you want">
 <figcaption aria-hidden="true">What you want</figcaption>
 </figure>
 <p>Instead, the numbers for each list item appear outside the
 <code>&lt;li&gt;</code> elements, like this:</p>
 <figure>
-<img src="images/actual.webp" alt="What you get" />
+<img src="images/actual.webp" alt="What you get">
 <figcaption aria-hidden="true">What you get</figcaption>
 </figure>
 <p>How can you fix this?</p>
