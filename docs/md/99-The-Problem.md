@@ -14,7 +14,7 @@ repo: Using-CSS-Counters
 
   In this tutorial, I will show you how to use [CSS counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters) to number the link elements in a navigation menu.
 
-  Imagine that you have an `ol` element with the following structure:
+  Imagine that you have an `<ol>` element with the following structure:
 
 ```html-#
 <ol>
